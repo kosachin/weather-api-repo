@@ -27,8 +27,6 @@ print("Current temperature is: {:.1f} deg C".format(temp_city))
 print("Current weather desc  :", weather_desc)
 print("Current Humidity      :", hmdt, '%')
 
-print(dir(complete_api_link))
-print(api_link.content)
 
 with open('info.txt', 'w') as f:
     f.write("Weather Stats for - {}  || {}\n".format(location.upper(), date_time))
