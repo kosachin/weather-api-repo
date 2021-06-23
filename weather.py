@@ -32,7 +32,6 @@ print(api_link.content)
 
 with open('info.txt', 'w') as f:
     f.write("Weather Stats for - {}  || {}\n".format(location.upper(), date_time))
-    f.write("Current temperature is: {:.1f} deg C\n".format(temp_city))
-    f.write("Current temperature is: {:.1f} deg C\n".format(temp_city))
+    f.write("Current temperature is : {:.1f} deg C\n".format(temp_city))
     f.write(f"Current weather desc  :{weather_desc}" )
-    f.write(f"\nCurrent Humidity      :{hmdt}%")
+    f.write(f"\nCurrent Humidity     :{hmdt} %")
